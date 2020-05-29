@@ -57,12 +57,12 @@ Download [pre-trained models](https://drive.google.com/file/d/1cl5QCasDguiw5RxoI
 
 ### Test
 ```
-python ocean_tracking/test_ocean.py --arch Ocean --dataset VOT2019
+python ocean_tracking/test_ocean.py --arch Ocean --dataset VOT2018
 ```
 
 ### Evaluation
 ```
-python lib/eval_toolkit/bin/eval.py --dataset_dir dataset --dataset VOT2019 --tracker_result_dir result/VOT2019 --trackers Ocean
+python lib/eval_toolkit/bin/eval.py --dataset_dir dataset --dataset VOT2018 --tracker_result_dir result/VOT2018 --trackers Ocean
 ```
 
 <!-- - For other benchmarks, use model [here](https://drive.google.com/drive/folders/1nkSTnyLQidpW67AdD8T7BVsbgrY2_iYt?usp=sharing) and please test the results files in the official toolkit.   -->
